@@ -16,7 +16,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/unit_testing_project_master$All_in_unit_testing_project_master.ic" NAME="All in unit-testing-project-master Coverage Results" MODIFIED="1553211163215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/unit_testing_project_master$All_in_unit_testing_project_master.ic" NAME="All in unit-testing-project-master Coverage Results" MODIFIED="1553211934068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/unit_testing_project_master$TestingClass__1_.ic" NAME="TestingClass (1) Coverage Results" MODIFIED="1553210726375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/unit_testing_project_master$TestingClass_testEqualsTrue.ic" NAME="TestingClass.testEqualsTrue Coverage Results" MODIFIED="1553142319128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>csc4700.*</FILTER>
@@ -218,7 +218,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553211801760" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553211922682" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/junit-4.12.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -236,7 +236,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.JdobTest">
+  <component name="RunManager" selected="JUnit.All in unit-testing-project-master">
     <configuration name="All in unit-testing-project-master" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-testing-project-master" />
       <option name="PACKAGE_NAME" value="" />
@@ -276,10 +276,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in unit-testing-project-master" />
         <item itemvalue="JUnit.JdobTest" />
         <item itemvalue="JUnit.TestingClass.testJUnitIsConfiguredCorrectly" />
         <item itemvalue="JUnit.JdobTest.testJUnitIsConfiguredCorrectly" />
-        <item itemvalue="JUnit.All in unit-testing-project-master" />
       </list>
     </recent_temporary>
   </component>
