@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e1856517-f26d-43b9-af7a-0b5fab856a95" name="Default Changelist" comment="CartItem tests except for HashCode - Project Structure may also be broken now">
-      <change beforePath="$PROJECT_DIR$/.idea/unit-testing-project-master.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/unit-testing-project-master.iml" afterDir="false" />
+    <list default="true" id="e1856517-f26d-43b9-af7a-0b5fab856a95" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/tests/CartItemTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/ItemTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/JdobTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/ShoppingCartTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/TestingClass" beforeDir="false" afterPath="$PROJECT_DIR$/tests/TestingClass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/TestingClass" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,10 +16,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/unit_testing_project_master$All_in_unit_testing_project_master.ic" NAME="All in unit-testing-project-master Coverage Results" MODIFIED="1553211163215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/unit_testing_project_master$TestingClass__1_.ic" NAME="TestingClass (1) Coverage Results" MODIFIED="1553210726375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/unit_testing_project_master$TestingClass_testEqualsTrue.ic" NAME="TestingClass.testEqualsTrue Coverage Results" MODIFIED="1553142319128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>csc4700.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/unit_testing_project_master$TestingClass.ic" NAME="TestingClass Coverage Results" MODIFIED="1553183079618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/unit_testing_project_master$TestingClass.ic" NAME="TestingClass Coverage Results" MODIFIED="1553210570167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>csc4700.*</FILTER>
     </SUITE>
   </component>
@@ -24,36 +29,87 @@
     <option name="myAddOrReplace" value="0" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="167" />
+    <option name="myElementSize" value="157" />
   </component>
   <component name="FileEditorManager">
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/tests/TestingClass">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/tests/JdobTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="190">
-                  <caret line="58" column="34" selection-start-line="58" selection-start-column="34" selection-end-line="58" selection-end-column="34" />
+                <state relative-caret-position="387">
+                  <caret line="154" column="9" lean-forward="true" selection-start-line="154" selection-start-column="9" selection-end-line="154" selection-end-column="9" />
                   <folding>
-                    <element signature="method#testDescription#0;class#TestingClass#0" />
-                    <element signature="method#testCost#0;class#TestingClass#0" />
-                    <element signature="method#testName#0;class#TestingClass#0" />
-                    <element signature="method#testEqualsFalse#0;class#TestingClass#0" />
-                    <element signature="method#testItemEqualsFalse3#0;class#TestingClass#0" />
-                    <element signature="method#testHashCode#0;class#TestingClass#0" />
-                    <element signature="method#testConstructor#0;class#TestingClass#0" />
-                    <element signature="method#testCount#0;class#TestingClass#0" />
-                    <element signature="method#testItem#0;class#TestingClass#0" />
-                    <element signature="method#testIncrementCountByOne#0;class#TestingClass#0" />
-                    <element signature="method#testDecrementCountByOne#0;class#TestingClass#0" />
-                    <element signature="method#testCartItemEqualsTrue#0;class#TestingClass#0" />
-                    <element signature="method#testCartItemEqualsTrue2#0;class#TestingClass#0" />
-                    <element signature="method#testCartIremEqualsFalse#0;class#TestingClass#0" />
-                    <element signature="method#testCartItemEqualsFalse2#0;class#TestingClass#0" />
-                    <element signature="method#testCartItemEqualsFalse3#0;class#TestingClass#0" />
-                    <element signature="method#testHashCode#1;class#TestingClass#0" />
-                    <element signature="method#testSerializeShoppingCartNull#0;class#TestingClass#0" />
+                    <element signature="imports" expanded="true" />
+                    <element signature="method#testDescription#0;class#JdobTest#0" />
+                    <element signature="method#testCost#0;class#JdobTest#0" />
+                    <element signature="method#testName#0;class#JdobTest#0" />
+                    <element signature="method#testItemEqualsFalse3#0;class#JdobTest#0" />
+                    <element signature="method#testConstructor#0;class#JdobTest#0" />
+                    <element signature="method#testCount#0;class#JdobTest#0" />
+                    <element signature="method#testItem#0;class#JdobTest#0" />
+                    <element signature="method#testIncrementCountByOne#0;class#JdobTest#0" />
+                    <element signature="method#testDecrementCountByOne#0;class#JdobTest#0" />
+                    <element signature="method#testCartItemEqualsTrue#0;class#JdobTest#0" />
+                    <element signature="method#testCartItemEqualsTrue2#0;class#JdobTest#0" />
+                    <element signature="method#testCartItemEqualsFalse2#0;class#JdobTest#0" />
+                    <element signature="method#testCartItemEqualsFalse3#0;class#JdobTest#0" />
+                    <element signature="method#testSerializeShoppingCartNull#0;class#JdobTest#0" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/tests/ShoppingCartTests.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="34">
+                  <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+                  <folding>
+                    <element signature="method#testSerializeShoppingCartNull#0;class#ShoppingCartTests#0" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/tests/ItemTests.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="476">
+                  <caret line="70" selection-start-line="70" selection-end-line="70" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="method#testDescription#0;class#JdobTest#0;class#ItemTests#0" />
+                    <element signature="method#testCost#0;class#JdobTest#0;class#ItemTests#0" />
+                    <element signature="method#testName#0;class#JdobTest#0;class#ItemTests#0" />
+                    <element signature="method#testItemEqualsTrue#0;class#JdobTest#0;class#ItemTests#0" />
+                    <element signature="method#testItemEqualsFalse#0;class#JdobTest#0;class#ItemTests#0" />
+                    <element signature="method#testItemEqualsFalse2#0;class#JdobTest#0;class#ItemTests#0" />
+                    <element signature="method#testItemEqualsFalse3#0;class#JdobTest#0;class#ItemTests#0" />
+                    <element signature="method#testItemHashCode#0;class#JdobTest#0;class#ItemTests#0" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/tests/CartItemTests.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="169">
+                  <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="method#testConstructor#0;class#CartItemTests#0" />
+                    <element signature="method#testCount#0;class#CartItemTests#0" />
+                    <element signature="method#testItem#0;class#CartItemTests#0" />
+                    <element signature="method#testIncrementCountByOne#0;class#CartItemTests#0" />
+                    <element signature="method#testDecrementCountByOne#0;class#CartItemTests#0" />
+                    <element signature="method#testCartItemEqualsTrue#0;class#CartItemTests#0" />
+                    <element signature="method#testCartItemEqualsTrue2#0;class#CartItemTests#0" />
+                    <element signature="method#testCartItemEqualsFalse#0;class#CartItemTests#0" />
+                    <element signature="method#testCartItemEqualsFalse2#0;class#CartItemTests#0" />
+                    <element signature="method#testCartItemEqualsFalse3#0;class#CartItemTests#0" />
                   </folding>
                 </state>
               </provider>
@@ -81,7 +137,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/csc4700/CartItem.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state>
+                <state relative-caret-position="187">
+                  <caret line="11" selection-start-line="11" selection-end-line="11" />
                   <folding>
                     <element signature="method#equals#0;class#CartItem#0" />
                     <element signature="method#setCount#0;class#CartItem#0" />
@@ -94,6 +151,13 @@
       </split-second>
     </splitter>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -101,6 +165,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/tests/TestingClass" />
+        <option value="$PROJECT_DIR$/tests/JdobTest.java" />
+        <option value="$PROJECT_DIR$/tests/ItemTests.java" />
+        <option value="$PROJECT_DIR$/tests/CartItemTests.java" />
+        <option value="$PROJECT_DIR$/tests/ShoppingCartTests.java" />
       </list>
     </option>
   </component>
@@ -118,6 +186,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -145,12 +214,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553185769027" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553211801760" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/junit-4.12.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -168,65 +236,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestingClass">
-    <configuration name="TestingClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.JdobTest">
+    <configuration name="All in unit-testing-project-master" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-testing-project-master" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="csc4700.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="csc4700.TestingClass" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JdobTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unit-testing-project-master" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JdobTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestingClass.testCost" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JdobTest.testJUnitIsConfiguredCorrectly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-testing-project-master" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="csc4700.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="csc4700.TestingClass" />
-      <option name="METHOD_NAME" value="testCost" />
+      <option name="MAIN_CLASS_NAME" value="JdobTest" />
+      <option name="METHOD_NAME" value="testJUnitIsConfiguredCorrectly" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestingClass.testDescription" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestingClass.testJUnitIsConfiguredCorrectly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-testing-project-master" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="csc4700.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="csc4700.TestingClass" />
-      <option name="METHOD_NAME" value="testDescription" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestingClass.testEqualsTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="unit-testing-project-master" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="csc4700.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="csc4700.TestingClass" />
-      <option name="METHOD_NAME" value="testEqualsTrue" />
+      <option name="MAIN_CLASS_NAME" value="TestingClass" />
+      <option name="METHOD_NAME" value="testJUnitIsConfiguredCorrectly" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -234,10 +276,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestingClass" />
-        <item itemvalue="JUnit.TestingClass.testEqualsTrue" />
-        <item itemvalue="JUnit.TestingClass.testCost" />
-        <item itemvalue="JUnit.TestingClass.testDescription" />
+        <item itemvalue="JUnit.JdobTest" />
+        <item itemvalue="JUnit.TestingClass.testJUnitIsConfiguredCorrectly" />
+        <item itemvalue="JUnit.JdobTest.testJUnitIsConfiguredCorrectly" />
+        <item itemvalue="JUnit.All in unit-testing-project-master" />
       </list>
     </recent_temporary>
   </component>
@@ -259,21 +301,46 @@
       <option name="project" value="LOCAL" />
       <updated>1553142466511</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="CartItem tests except for HashCode - Project Structure may also be broken now">
+      <created>1553186055829</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1553186055829</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestingClass_testEqualsTrue - 2019.03.21 at 00h 25m 59s.xml">
-      <configuration name="TestingClass.testEqualsTrue" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestingClass - 2019.03.21 at 00h 28m 35s.xml">
-      <configuration name="TestingClass" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestingClass - 2019.03.21 at 00h 33m 31s.xml">
       <configuration name="TestingClass" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TestingClass - 2019.03.21 at 11h 45m 20s.xml">
       <configuration name="TestingClass" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestingClass - 2019.03.21 at 19h 23m 17s.xml">
+      <configuration name="TestingClass" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestingClass_(1) - 2019.03.21 at 19h 26m 05s.xml">
+      <configuration name="TestingClass (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestingClass_(1) - 2019.03.21 at 19h 29m 22s.xml">
+      <configuration name="TestingClass (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_unit-testing-project-master - 2019.03.21 at 19h 32m 12s.xml">
+      <configuration name="All in unit-testing-project-master" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_unit-testing-project-master - 2019.03.21 at 19h 33m 21s.xml">
+      <configuration name="All in unit-testing-project-master" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JdobTest_testJUnitIsConfiguredCorrectly - 2019.03.21 at 19h 34m 18s.xml">
+      <configuration name="JdobTest.testJUnitIsConfiguredCorrectly" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestingClass_testJUnitIsConfiguredCorrectly - 2019.03.21 at 19h 34m 54s.xml">
+      <configuration name="TestingClass.testJUnitIsConfiguredCorrectly" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JdobTest - 2019.03.21 at 19h 35m 34s.xml">
+      <configuration name="JdobTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -285,19 +352,19 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.09808102" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.09914712" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.32936078" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" />
-      <window_info anchor="bottom" id="Run" order="5" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="5" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" />
-      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32936078" />
       <window_info anchor="right" id="Theme Preview" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
@@ -341,27 +408,16 @@
     <entry file="file://$PROJECT_DIR$/src/csc4700/Item.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/csc4700/CartItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="method#equals#0;class#CartItem#0" />
-            <element signature="method#setCount#0;class#CartItem#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/TestingClass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="58" column="34" selection-start-line="58" selection-start-column="34" selection-end-line="58" selection-end-column="34" />
+        <state relative-caret-position="503">
+          <caret line="163" column="5" lean-forward="true" selection-start-line="6" selection-end-line="163" selection-end-column="5" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="method#testDescription#0;class#TestingClass#0" />
             <element signature="method#testCost#0;class#TestingClass#0" />
             <element signature="method#testName#0;class#TestingClass#0" />
-            <element signature="method#testEqualsFalse#0;class#TestingClass#0" />
             <element signature="method#testItemEqualsFalse3#0;class#TestingClass#0" />
-            <element signature="method#testHashCode#0;class#TestingClass#0" />
             <element signature="method#testConstructor#0;class#TestingClass#0" />
             <element signature="method#testCount#0;class#TestingClass#0" />
             <element signature="method#testItem#0;class#TestingClass#0" />
@@ -369,11 +425,92 @@
             <element signature="method#testDecrementCountByOne#0;class#TestingClass#0" />
             <element signature="method#testCartItemEqualsTrue#0;class#TestingClass#0" />
             <element signature="method#testCartItemEqualsTrue2#0;class#TestingClass#0" />
-            <element signature="method#testCartIremEqualsFalse#0;class#TestingClass#0" />
             <element signature="method#testCartItemEqualsFalse2#0;class#TestingClass#0" />
             <element signature="method#testCartItemEqualsFalse3#0;class#TestingClass#0" />
-            <element signature="method#testHashCode#1;class#TestingClass#0" />
             <element signature="method#testSerializeShoppingCartNull#0;class#TestingClass#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/CartItemTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#testConstructor#0;class#CartItemTests#0" />
+            <element signature="method#testCount#0;class#CartItemTests#0" />
+            <element signature="method#testItem#0;class#CartItemTests#0" />
+            <element signature="method#testIncrementCountByOne#0;class#CartItemTests#0" />
+            <element signature="method#testDecrementCountByOne#0;class#CartItemTests#0" />
+            <element signature="method#testCartItemEqualsTrue#0;class#CartItemTests#0" />
+            <element signature="method#testCartItemEqualsTrue2#0;class#CartItemTests#0" />
+            <element signature="method#testCartItemEqualsFalse#0;class#CartItemTests#0" />
+            <element signature="method#testCartItemEqualsFalse2#0;class#CartItemTests#0" />
+            <element signature="method#testCartItemEqualsFalse3#0;class#CartItemTests#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/ItemTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#testDescription#0;class#JdobTest#0;class#ItemTests#0" />
+            <element signature="method#testCost#0;class#JdobTest#0;class#ItemTests#0" />
+            <element signature="method#testName#0;class#JdobTest#0;class#ItemTests#0" />
+            <element signature="method#testItemEqualsTrue#0;class#JdobTest#0;class#ItemTests#0" />
+            <element signature="method#testItemEqualsFalse#0;class#JdobTest#0;class#ItemTests#0" />
+            <element signature="method#testItemEqualsFalse2#0;class#JdobTest#0;class#ItemTests#0" />
+            <element signature="method#testItemEqualsFalse3#0;class#JdobTest#0;class#ItemTests#0" />
+            <element signature="method#testItemHashCode#0;class#JdobTest#0;class#ItemTests#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/csc4700/CartItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="method#equals#0;class#CartItem#0" />
+            <element signature="method#setCount#0;class#CartItem#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/JdobTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="154" column="9" lean-forward="true" selection-start-line="154" selection-start-column="9" selection-end-line="154" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#testDescription#0;class#JdobTest#0" />
+            <element signature="method#testCost#0;class#JdobTest#0" />
+            <element signature="method#testName#0;class#JdobTest#0" />
+            <element signature="method#testItemEqualsFalse3#0;class#JdobTest#0" />
+            <element signature="method#testConstructor#0;class#JdobTest#0" />
+            <element signature="method#testCount#0;class#JdobTest#0" />
+            <element signature="method#testItem#0;class#JdobTest#0" />
+            <element signature="method#testIncrementCountByOne#0;class#JdobTest#0" />
+            <element signature="method#testDecrementCountByOne#0;class#JdobTest#0" />
+            <element signature="method#testCartItemEqualsTrue#0;class#JdobTest#0" />
+            <element signature="method#testCartItemEqualsTrue2#0;class#JdobTest#0" />
+            <element signature="method#testCartItemEqualsFalse2#0;class#JdobTest#0" />
+            <element signature="method#testCartItemEqualsFalse3#0;class#JdobTest#0" />
+            <element signature="method#testSerializeShoppingCartNull#0;class#JdobTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/ShoppingCartTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+          <folding>
+            <element signature="method#testSerializeShoppingCartNull#0;class#ShoppingCartTests#0" />
           </folding>
         </state>
       </provider>
