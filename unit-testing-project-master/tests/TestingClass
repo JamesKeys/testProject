@@ -4,10 +4,7 @@ import csc4700.Backup;
 
 import static org.junit.Assert.*;
 
-// Please delete this file prior to submitting your project.
-
-
-public class ExampleTest {
+public class TestingClass{
 
     @Test
     public void testJUnitIsConfiguredCorrectly() {
