@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1856517-f26d-43b9-af7a-0b5fab856a95" name="Default Changelist" comment="Fixed">
-      <change afterPath="$PROJECT_DIR$/tests/BackupTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/unit-testing-project-master/CartItemTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/unit-testing-project-master/CartItemTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/unit-testing-project-master/ShoppingCartTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/unit-testing-project-master/ShoppingCartTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/BackupTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/BackupTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/CartItemTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/CartItemTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/ItemTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/ItemTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/ShoppingCartTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/ShoppingCartTests.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,7 +16,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/unit_testing_project_master$All_in_unit_testing_project_master.ic" NAME="All in unit-testing-project-master Coverage Results" MODIFIED="1553212711398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/unit_testing_project_master$All_in_unit_testing_project_master.ic" NAME="All in unit-testing-project-master Coverage Results" MODIFIED="1553259906500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/unit_testing_project_master$TestingClass__1_.ic" NAME="TestingClass (1) Coverage Results" MODIFIED="1553210726375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/unit_testing_project_master$ShoppingCartTests_testSerializeShoppingCart.ic" NAME="ShoppingCartTests.testSerializeShoppingCart Coverage Results" MODIFIED="1553213321931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/unit_testing_project_master$TestingClass_testEqualsTrue.ic" NAME="TestingClass.testEqualsTrue Coverage Results" MODIFIED="1553142319128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -37,29 +37,31 @@
     <splitter split-orientation="horizontal" split-proportion="0.64738077">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/tests/ShoppingCartTests.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="136">
                   <caret line="8" selection-start-line="8" selection-end-line="8" />
                   <folding>
                     <element signature="imports" expanded="true" />
+                    <element signature="method#testSerializeShoppingCartNull#0;class#ShoppingCartTests#0" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/tests/BackupTests.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="408">
-                  <caret line="54" column="51" selection-start-line="54" selection-start-column="51" selection-end-line="54" selection-end-column="51" />
+                <state relative-caret-position="85">
+                  <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="method#testSerializeShoppingCartNull#0;class#ShoppingCartTests#0" />
-                    <element signature="method#testSerializeShoppingCart#0;class#ShoppingCartTests#0" />
-                    <element signature="method#testDeserializeShoppingCartNull#0;class#ShoppingCartTests#0" />
-                    <element signature="method#testDeserializeShoppingCartFormatException#0;class#ShoppingCartTests#0" />
+                    <element signature="method#testSerializeShoppingCartNull#0;class#BackupTests#0" />
+                    <element signature="method#testSerializeShoppingCart#0;class#BackupTests#0" />
+                    <element signature="method#testDeserializeShoppingCartNull#0;class#BackupTests#0" />
+                    <element signature="method#testDeserializeShoppingCartFormatException#0;class#BackupTests#0" />
+                    <element signature="method#testDeserializeShoppingCart#0;class#BackupTests#0" />
                   </folding>
                 </state>
               </provider>
@@ -68,18 +70,18 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/tests/ItemTests.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="476">
-                  <caret line="70" selection-start-line="70" selection-end-line="70" />
+                <state relative-caret-position="102">
+                  <caret line="6" selection-start-line="6" selection-end-line="6" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="method#testDescription#0;class#JdobTest#0;class#ItemTests#0" />
-                    <element signature="method#testCost#0;class#JdobTest#0;class#ItemTests#0" />
-                    <element signature="method#testName#0;class#JdobTest#0;class#ItemTests#0" />
-                    <element signature="method#testItemEqualsTrue#0;class#JdobTest#0;class#ItemTests#0" />
-                    <element signature="method#testItemEqualsFalse#0;class#JdobTest#0;class#ItemTests#0" />
-                    <element signature="method#testItemEqualsFalse2#0;class#JdobTest#0;class#ItemTests#0" />
-                    <element signature="method#testItemEqualsFalse3#0;class#JdobTest#0;class#ItemTests#0" />
-                    <element signature="method#testItemHashCode#0;class#JdobTest#0;class#ItemTests#0" />
+                    <element signature="method#testDescription#0;class#ItemTests#0" />
+                    <element signature="method#testCost#0;class#ItemTests#0" />
+                    <element signature="method#testName#0;class#ItemTests#0" />
+                    <element signature="method#testItemEqualsTrue#0;class#ItemTests#0" />
+                    <element signature="method#testItemEqualsFalse#0;class#ItemTests#0" />
+                    <element signature="method#testItemEqualsFalse2#0;class#ItemTests#0" />
+                    <element signature="method#testItemEqualsFalse3#0;class#ItemTests#0" />
+                    <element signature="method#testItemHashCode#0;class#ItemTests#0" />
                   </folding>
                 </state>
               </provider>
@@ -88,9 +90,10 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/tests/CartItemTests.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="51">
-                  <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+                <state relative-caret-position="833">
+                  <caret line="139" column="36" selection-start-line="139" selection-start-column="36" selection-end-line="139" selection-end-column="36" />
                   <folding>
+                    <element signature="imports" expanded="true" />
                     <element signature="method#testConstructor#0;class#CartItemTests#0" />
                     <element signature="method#testCount#0;class#CartItemTests#0" />
                     <element signature="method#testItem#0;class#CartItemTests#0" />
@@ -102,6 +105,9 @@
                     <element signature="method#testCartItemEqualsFalse#0;class#CartItemTests#0" />
                     <element signature="method#testCartItemEqualsFalse2#0;class#CartItemTests#0" />
                     <element signature="method#testCartItemEqualsFalse3#0;class#CartItemTests#0" />
+                    <element signature="method#testHashCodeNull#0;class#CartItemTests#0" />
+                    <element signature="method#testHashCodeEq#0;class#CartItemTests#0" />
+                    <element signature="method#testHashCodeNotEq#0;class#CartItemTests#0" />
                   </folding>
                 </state>
               </provider>
@@ -115,7 +121,7 @@
             <entry file="file://$PROJECT_DIR$/src/csc4700/Backup.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="136">
-                  <caret line="44" column="33" lean-forward="true" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
+                  <caret line="44" column="33" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
                   <folding>
                     <element signature="e#1223#1280#1" />
                     <element signature="e#1558#1628#1" />
@@ -127,7 +133,16 @@
           </file>
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/csc4700/ShoppingCart.java">
-              <provider selected="true" editor-type-id="text-editor" />
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="136">
+                  <caret line="9" selection-start-line="9" selection-end-line="9" />
+                  <folding>
+                    <element signature="method#addItem#0;class#ShoppingCart#0" />
+                    <element signature="method#deleteItem#0;class#ShoppingCart#0" />
+                    <element signature="method#findCartItem#0;class#ShoppingCart#0" />
+                  </folding>
+                </state>
+              </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
@@ -138,7 +153,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/csc4700/CartItem.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="289">
+                <state relative-caret-position="272">
                   <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
                   <folding>
                     <element signature="e#349#350#0" expanded="true" />
@@ -167,17 +182,16 @@
       <list>
         <option value="$PROJECT_DIR$/tests/TestingClass" />
         <option value="$PROJECT_DIR$/tests/JdobTest.java" />
-        <option value="$PROJECT_DIR$/tests/ItemTests.java" />
-        <option value="$PROJECT_DIR$/tests/CartItemTests.java" />
         <option value="$PROJECT_DIR$/tests/ShoppingCartTests.java" />
         <option value="$PROJECT_DIR$/tests/BackupTests.java" />
+        <option value="$PROJECT_DIR$/tests/ItemTests.java" />
+        <option value="$PROJECT_DIR$/tests/CartItemTests.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="265" />
-    <option name="y" value="-27" />
-    <option name="width" value="1491" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="953" />
+    <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -188,6 +202,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -216,11 +231,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553219551846" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553259942454" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/junit-4.12.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -238,12 +252,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BackupTests.testDeserializeShoppingCart">
-    <configuration name="BackupTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.All in unit-testing-project-master">
+    <configuration name="All in unit-testing-project-master" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-testing-project-master" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BackupTests" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -258,31 +271,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShoppingCartTests.testDeserializeShoppingCart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CartItemTests.testHashCodeEq" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-testing-project-master" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ShoppingCartTests" />
-      <option name="METHOD_NAME" value="testDeserializeShoppingCart" />
+      <option name="MAIN_CLASS_NAME" value="CartItemTests" />
+      <option name="METHOD_NAME" value="testHashCodeEq" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShoppingCartTests.testDeserializeShoppingCartFormatException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CartItemTests.testHashCodeNotEq" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-testing-project-master" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ShoppingCartTests" />
-      <option name="METHOD_NAME" value="testDeserializeShoppingCartFormatException" />
+      <option name="MAIN_CLASS_NAME" value="CartItemTests" />
+      <option name="METHOD_NAME" value="testHashCodeNotEq" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShoppingCartTests.testSerializeShoppingCart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CartItemTests.testHashCodeNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-testing-project-master" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ShoppingCartTests" />
-      <option name="METHOD_NAME" value="testSerializeShoppingCart" />
+      <option name="MAIN_CLASS_NAME" value="CartItemTests" />
+      <option name="METHOD_NAME" value="testHashCodeNull" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -290,11 +303,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in unit-testing-project-master" />
+        <item itemvalue="JUnit.CartItemTests.testHashCodeNotEq" />
+        <item itemvalue="JUnit.CartItemTests.testHashCodeEq" />
+        <item itemvalue="JUnit.CartItemTests.testHashCodeNull" />
         <item itemvalue="JUnit.BackupTests.testDeserializeShoppingCart" />
-        <item itemvalue="JUnit.BackupTests" />
-        <item itemvalue="JUnit.ShoppingCartTests.testDeserializeShoppingCart" />
-        <item itemvalue="JUnit.ShoppingCartTests.testDeserializeShoppingCartFormatException" />
-        <item itemvalue="JUnit.ShoppingCartTests.testSerializeShoppingCart" />
       </list>
     </recent_temporary>
   </component>
@@ -334,35 +347,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ShoppingCartTests_testSerializeShoppingCart - 2019.03.21 at 20h 12m 56s.xml">
-      <configuration name="ShoppingCartTests.testSerializeShoppingCart" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShoppingCartTests_testDeserializeShoppingCart - 2019.03.21 at 20h 31m 20s.xml">
-      <configuration name="ShoppingCartTests.testDeserializeShoppingCart" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShoppingCartTests_testDeserializeShoppingCartFormatException - 2019.03.21 at 21h 08m 01s.xml">
-      <configuration name="ShoppingCartTests.testDeserializeShoppingCartFormatException" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShoppingCartTests_testDeserializeShoppingCartFormatException - 2019.03.21 at 21h 08m 54s.xml">
-      <configuration name="ShoppingCartTests.testDeserializeShoppingCartFormatException" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShoppingCartTests_testDeserializeShoppingCart - 2019.03.21 at 21h 11m 00s.xml">
-      <configuration name="ShoppingCartTests.testDeserializeShoppingCart" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShoppingCartTests_testDeserializeShoppingCart - 2019.03.21 at 21h 12m 54s.xml">
-      <configuration name="ShoppingCartTests.testDeserializeShoppingCart" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShoppingCartTests_testDeserializeShoppingCart - 2019.03.21 at 21h 33m 15s.xml">
-      <configuration name="ShoppingCartTests.testDeserializeShoppingCart" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BackupTests - 2019.03.21 at 21h 42m 55s.xml">
-      <configuration name="BackupTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BackupTests_testDeserializeShoppingCart - 2019.03.21 at 21h 44m 50s.xml">
+    <history-entry file="BackupTests_testDeserializeShoppingCart - 2019.03.22 at 08h 40m 09s.xml">
       <configuration name="BackupTests.testDeserializeShoppingCart" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BackupTests_testDeserializeShoppingCart - 2019.03.21 at 21h 49m 39s.xml">
+    <history-entry file="BackupTests_testDeserializeShoppingCart - 2019.03.22 at 08h 48m 46s.xml">
       <configuration name="BackupTests.testDeserializeShoppingCart" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BackupTests_testDeserializeShoppingCart - 2019.03.22 at 08h 50m 05s.xml">
+      <configuration name="BackupTests.testDeserializeShoppingCart" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BackupTests_testDeserializeShoppingCart - 2019.03.22 at 08h 50m 33s.xml">
+      <configuration name="BackupTests.testDeserializeShoppingCart" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BackupTests_testDeserializeShoppingCart - 2019.03.22 at 08h 51m 20s.xml">
+      <configuration name="BackupTests.testDeserializeShoppingCart" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BackupTests_testDeserializeShoppingCart - 2019.03.22 at 08h 52m 11s.xml">
+      <configuration name="BackupTests.testDeserializeShoppingCart" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_unit-testing-project-master - 2019.03.22 at 08h 52m 44s.xml">
+      <configuration name="All in unit-testing-project-master" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CartItemTests_testHashCodeNull - 2019.03.22 at 08h 54m 27s.xml">
+      <configuration name="CartItemTests.testHashCodeNull" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CartItemTests_testHashCodeEq - 2019.03.22 at 08h 54m 36s.xml">
+      <configuration name="CartItemTests.testHashCodeEq" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CartItemTests_testHashCodeNotEq - 2019.03.22 at 08h 54m 42s.xml">
+      <configuration name="CartItemTests.testHashCodeNotEq" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -374,7 +387,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.09914712" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.10021322" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -415,87 +428,86 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/ExampleTest.java" />
-    <entry file="file://$PROJECT_DIR$/out/test/unit-testing-project-master/TestingClass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/TestingClass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="163" column="5" lean-forward="true" selection-start-line="6" selection-end-line="163" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#testDescription#0;class#TestingClass#0" />
-            <element signature="method#testCost#0;class#TestingClass#0" />
-            <element signature="method#testName#0;class#TestingClass#0" />
-            <element signature="method#testItemEqualsFalse3#0;class#TestingClass#0" />
-            <element signature="method#testConstructor#0;class#TestingClass#0" />
-            <element signature="method#testCount#0;class#TestingClass#0" />
-            <element signature="method#testItem#0;class#TestingClass#0" />
-            <element signature="method#testIncrementCountByOne#0;class#TestingClass#0" />
-            <element signature="method#testDecrementCountByOne#0;class#TestingClass#0" />
-            <element signature="method#testCartItemEqualsTrue#0;class#TestingClass#0" />
-            <element signature="method#testCartItemEqualsTrue2#0;class#TestingClass#0" />
-            <element signature="method#testCartItemEqualsFalse2#0;class#TestingClass#0" />
-            <element signature="method#testCartItemEqualsFalse3#0;class#TestingClass#0" />
-            <element signature="method#testSerializeShoppingCartNull#0;class#TestingClass#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/JdobTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="154" column="9" lean-forward="true" selection-start-line="154" selection-start-column="9" selection-end-line="154" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#testDescription#0;class#JdobTest#0" />
-            <element signature="method#testCost#0;class#JdobTest#0" />
-            <element signature="method#testName#0;class#JdobTest#0" />
-            <element signature="method#testItemEqualsFalse3#0;class#JdobTest#0" />
-            <element signature="method#testConstructor#0;class#JdobTest#0" />
-            <element signature="method#testCount#0;class#JdobTest#0" />
-            <element signature="method#testItem#0;class#JdobTest#0" />
-            <element signature="method#testIncrementCountByOne#0;class#JdobTest#0" />
-            <element signature="method#testDecrementCountByOne#0;class#JdobTest#0" />
-            <element signature="method#testCartItemEqualsTrue#0;class#JdobTest#0" />
-            <element signature="method#testCartItemEqualsTrue2#0;class#JdobTest#0" />
-            <element signature="method#testCartItemEqualsFalse2#0;class#JdobTest#0" />
-            <element signature="method#testCartItemEqualsFalse3#0;class#JdobTest#0" />
-            <element signature="method#testSerializeShoppingCartNull#0;class#JdobTest#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/out/test/unit-testing-project-master/TestingClass" />
+    <entry file="file://$PROJECT_DIR$/tests/TestingClass" />
+    <entry file="file://$PROJECT_DIR$/tests/JdobTest.java" />
     <entry file="file://$PROJECT_DIR$/src/csc4700/Item.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/ItemTests.java">
+    <entry file="file://$PROJECT_DIR$/src/csc4700/CartItem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        <state relative-caret-position="272">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding>
+            <element signature="e#349#350#0" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/csc4700/ShoppingCart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="method#addItem#0;class#ShoppingCart#0" />
+            <element signature="method#deleteItem#0;class#ShoppingCart#0" />
+            <element signature="method#findCartItem#0;class#ShoppingCart#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/csc4700/Backup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="44" column="33" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
+          <folding>
+            <element signature="e#1223#1280#1" />
+            <element signature="e#1558#1628#1" />
+            <element signature="method#saveShoppingCart#0;class#Backup#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/BackupTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#testDescription#0;class#JdobTest#0;class#ItemTests#0" />
-            <element signature="method#testCost#0;class#JdobTest#0;class#ItemTests#0" />
-            <element signature="method#testName#0;class#JdobTest#0;class#ItemTests#0" />
-            <element signature="method#testItemEqualsTrue#0;class#JdobTest#0;class#ItemTests#0" />
-            <element signature="method#testItemEqualsFalse#0;class#JdobTest#0;class#ItemTests#0" />
-            <element signature="method#testItemEqualsFalse2#0;class#JdobTest#0;class#ItemTests#0" />
-            <element signature="method#testItemEqualsFalse3#0;class#JdobTest#0;class#ItemTests#0" />
-            <element signature="method#testItemHashCode#0;class#JdobTest#0;class#ItemTests#0" />
+            <element signature="method#testSerializeShoppingCartNull#0;class#BackupTests#0" />
+            <element signature="method#testSerializeShoppingCart#0;class#BackupTests#0" />
+            <element signature="method#testDeserializeShoppingCartNull#0;class#BackupTests#0" />
+            <element signature="method#testDeserializeShoppingCartFormatException#0;class#BackupTests#0" />
+            <element signature="method#testDeserializeShoppingCart#0;class#BackupTests#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/ItemTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#testDescription#0;class#ItemTests#0" />
+            <element signature="method#testCost#0;class#ItemTests#0" />
+            <element signature="method#testName#0;class#ItemTests#0" />
+            <element signature="method#testItemEqualsTrue#0;class#ItemTests#0" />
+            <element signature="method#testItemEqualsFalse#0;class#ItemTests#0" />
+            <element signature="method#testItemEqualsFalse2#0;class#ItemTests#0" />
+            <element signature="method#testItemEqualsFalse3#0;class#ItemTests#0" />
+            <element signature="method#testItemHashCode#0;class#ItemTests#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/CartItemTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        <state relative-caret-position="833">
+          <caret line="139" column="36" selection-start-line="139" selection-start-column="36" selection-end-line="139" selection-end-column="36" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="method#testConstructor#0;class#CartItemTests#0" />
             <element signature="method#testCount#0;class#CartItemTests#0" />
             <element signature="method#testItem#0;class#CartItemTests#0" />
@@ -507,32 +519,9 @@
             <element signature="method#testCartItemEqualsFalse#0;class#CartItemTests#0" />
             <element signature="method#testCartItemEqualsFalse2#0;class#CartItemTests#0" />
             <element signature="method#testCartItemEqualsFalse3#0;class#CartItemTests#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/csc4700/CartItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-          <folding>
-            <element signature="e#349#350#0" expanded="true" />
-            <element signature="e#389#390#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/csc4700/ShoppingCart.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/csc4700/Backup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="44" column="33" lean-forward="true" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
-          <folding>
-            <element signature="e#1223#1280#1" />
-            <element signature="e#1558#1628#1" />
-            <element signature="method#saveShoppingCart#0;class#Backup#0" />
+            <element signature="method#testHashCodeNull#0;class#CartItemTests#0" />
+            <element signature="method#testHashCodeEq#0;class#CartItemTests#0" />
+            <element signature="method#testHashCodeNotEq#0;class#CartItemTests#0" />
           </folding>
         </state>
       </provider>
@@ -543,20 +532,7 @@
           <caret line="8" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/BackupTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="54" column="51" selection-start-line="54" selection-start-column="51" selection-end-line="54" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#testSerializeShoppingCartNull#0;class#ShoppingCartTests#0" />
-            <element signature="method#testSerializeShoppingCart#0;class#ShoppingCartTests#0" />
-            <element signature="method#testDeserializeShoppingCartNull#0;class#ShoppingCartTests#0" />
-            <element signature="method#testDeserializeShoppingCartFormatException#0;class#ShoppingCartTests#0" />
           </folding>
         </state>
       </provider>
