@@ -1,6 +1,7 @@
 import csc4700.*;
+import csc4700.exceptions.InvalidCountException;
 import org.junit.Test;
-import org.junit.Assert.*;
+import static org.junit.Assert.*;
 
 import static org.junit.Assert.assertEquals;
 
@@ -38,8 +39,20 @@ public class CartItemTests {
     public void testDecrementCountByOne() {
         //This method tests the decrement method for a CartItem
         CartItem testCartItem = new CartItem(new Item());
+        testCartItem.incrementCountByOne();
+        testCartItem.incrementCountByOne();
         testCartItem.decrementCountByOne();
-        assertEquals(-1, testCartItem.getCount());
+        assertEquals(1, testCartItem.getCount());
+    }
+    @Test
+    public void testDecrementCountByOneException() {
+        //This method tests the decrement method for a CartItem when it goes into negative values
+        CartItem testCartItem = new CartItem(new Item());
+        try {
+            testCartItem.decrementCountByOne();
+        } catch(InvalidCountException e) {
+            assertEquals(true, true);
+        }
     }
     @Test
     public void testCartItemEqualsTrue() {
@@ -61,7 +74,8 @@ public class CartItemTests {
     @Test
     public void testCartItemEqualsFalse() {
         //This method tests the equals method for a CartItem with two different items
-        Item a = new Item(); Item b = new Item(); b.setName("b");
+        Item a = new Item(); a.setName("a"); a.setDescription("DescA"); a.setCost(1);
+        Item b = new Item(); b.setName("b"); b.setDescription("DescB"); b.setCost(2);
         CartItem testCartItem = new CartItem(a);
         CartItem testCartItemB = new CartItem(b);
         assertEquals(false, testCartItem.equals(testCartItemB));
