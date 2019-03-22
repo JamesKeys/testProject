@@ -1,6 +1,10 @@
 import csc4700.*;
 import csc4700.exceptions.SerializedFormatException;
 import org.junit.Test;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+
 import static org.junit.Assert.*;
 
 public class BackupTests {
@@ -68,6 +72,55 @@ public class BackupTests {
             assertEquals(testShoppingCart.getCartItems(), testBackup.deserializeShoppingCart(s).getCartItems());
         } catch (SerializedFormatException e) {
             fail("Error not supposed to be thrown");
+        }
+    }
+
+    @Test
+    public void testSaveShoppingCartFileExists() {
+        //Tests to make sure that the saveShoppingCart method actually saves the cart
+        try {
+            ShoppingCart testSaveMe = new ShoppingCart();
+            Backup testBackup = new Backup();
+            File f = File.createTempFile("tmp", null, null);
+            testBackup.saveShoppingCart(testSaveMe, f);
+            f.deleteOnExit();
+            assertEquals(true, f.exists());
+        } catch (Exception e) {
+            fail("" + e);
+        }
+    }
+
+    @Test
+    public void testLoadShoppingCartFileNotFound() {
+        //Tests to make sure that the FileNotFoundException is thrown when
+        //loadShoppingCart is called on a file without a shoppingCart saved
+        File f = new File("tmp");
+        f.deleteOnExit();
+        Backup testBackup = new Backup();
+        try {
+            testBackup.loadShoppingCart(f);
+        } catch (FileNotFoundException e) {
+            assertTrue(true);
+        } catch (Exception e2) {
+            fail("" + e2);
+        }
+    }
+
+    @Test
+    public void testLoadShoppingCart(){
+        //Tests to make sure a shoppingCart can be loaded after being saved and has the same CartItems
+        //This may be overly complicated but please don't touch it. It works.
+        try {
+            ShoppingCart testShoppingCart = new ShoppingCart();
+            Item testItem = new Item(); testItem.setName("test"); testItem.setDescription("DescTest"); testItem.setCost(2); testShoppingCart.addItem(testItem);
+            Backup testBackup = new Backup();
+            File f = File.createTempFile("tmp", null, null);
+            String path = f.getPath();
+            testBackup.saveShoppingCart(testShoppingCart, f);
+            File x = new File(path);
+            assertEquals(testShoppingCart.getCartItems(), testBackup.loadShoppingCart(x).getCartItems());
+        } catch (Exception e) {
+            fail("" + e);
         }
     }
 }

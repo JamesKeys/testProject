@@ -69,7 +69,42 @@ public class ItemTests {
     }
 
     @Test
-    public void testItemHashCode() {
-        //Someone else is gonna have to write this test because I don't know hashcode
+    public void testHashCodeNull() {
+        //This tests to make sure that a NullPointerException is thrown if the name of the item is null
+        Item item1 = new Item();
+        item1.setName(null);
+        try {
+            item1.hashCode();
+        } catch (NullPointerException e) {
+            assertTrue(true);
+        }
+    }
+
+    @Test
+    public void testHashCodeZero() {
+        //This tests to make sure that an empty string is hashCoded into 0
+        Item item1 = new Item();
+        item1.setName("");
+        assertEquals(0,item1.hashCode());
+    }
+
+    @Test
+    public void testHashCodeEq(){
+        //This test makes sure that two items with the same names will have the same hashCode value
+        Item item1 = new Item();
+        Item item2 = new Item();
+        item1.setName("apple");
+        item2.setName("apple");
+        assertEquals(item1.hashCode(), item2.hashCode());
+    }
+
+    @Test
+    public void testHashCodeNotEq(){
+        //This test makes sure two differently named items will have different hashCode values
+        Item item1 = new Item();
+        Item item2 = new Item();
+        item1.setName("apple");
+        item2.setName("pencil");
+        assertNotEquals(item1.hashCode(), item2.hashCode());
     }
 }
